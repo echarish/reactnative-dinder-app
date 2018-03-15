@@ -1,0 +1,43 @@
+Creating react-native project
+
+npm install react-native
+brew watchman 
+	or download for windows https://facebook.github.io/watchman/docs/install.html
+	
+react-native init dinder --version 0.49.3
+
+To run your app on iOS:
+   cd C:\Users\hkumar\Work\Devlopment\Workspaces\IntelliJ\ReactNative\dinder
+   react-native run-ios
+   - or -
+   Open ios\dinder.xcodeproj in Xcode
+   Hit the Run button
+To run your app on Android:
+   cd C:\Users\hkumar\Work\Devlopment\Workspaces\IntelliJ\ReactNative\dinder
+   Have an Android emulator running (quickest way to get started), or a device connected
+   react-native run-android
+   
+
+Set up Firebase project and data
+
+yarn add native-base react-navigation
+
+yarn add -D babel-plugin-transform-decorators-legacy
+
+yarn add mobx mobx-react
+
+yarn add react-native-vector-icons
+after this we need to link it to IOS file by
+react-native link
+
+yarn add firebase
+
+
+
+
+
+--Adding custom theme to project
+node node_modules/native-base/ejectTheme.js
+
+git remote add origin https://github.com/echarish/reactnative-dinder-app.git
+git push -u origin master
