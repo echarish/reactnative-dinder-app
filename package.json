@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"firebase": "^4.11.0",
+		"firebase-nest": "^0.7.1",
 		"mobx": "^4.0.2",
 		"mobx-react": "^5.0.0",
 		"native-base": "^2.3.10",

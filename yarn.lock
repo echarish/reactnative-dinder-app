@@ -2069,6 +2069,10 @@ find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
+firebase-nest@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/firebase-nest/-/firebase-nest-0.7.1.tgz#7ae7b4b68ce4b5240c0a9913726df7fe443807c3"
+
 firebase@^4.11.0:
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/firebase/-/firebase-4.11.0.tgz#e6767df3f6e208b0c58ef53130609392b765df99"
