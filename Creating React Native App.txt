@@ -32,6 +32,21 @@ react-native link
 
 yarn add firebase
 
+add config from firebase project from website
+
+
+yarn add firebase-nest
+
+yarn add mobx-firebase-store
+
+yarn add react-native-image-picker
+react-native link
+
+yarn add react-native-fetch-blob
+react-native link
+
+RNFB_ANDROID_PERMISSIONS=true react-native link   ====  in Mac
+set RNFB_ANDROID_PERMISSIONS=true | react-native link  === in windows
 
 
 

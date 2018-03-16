@@ -4,6 +4,7 @@
  * @flow
  */
 
+console.disableYellowBox = true;
 import React, { Component } from 'react';
 import AppNavigator from './app/app.navigator'
 import { Provider } from 'mobx-react';
