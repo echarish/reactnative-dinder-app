@@ -2,35 +2,30 @@ import { action } from 'mobx';
 import firebase from 'firebase';
 import MobxFirebaseStore from 'mobx-firebase-store';
 
-
-export default class MatchStore extends MobxFirebaseStore{
-
-    constructor(){
+export default class MatchStore extends MobxFirebaseStore {
+    constructor() {
         super(firebase.database().ref())
-        firebase.auth().onAuthStateChanged(
-            (user) => {
-                this.user = user;
-            }
-        )
+        firebase.auth().onAuthStateChanged((user) => {
+            this.user = user;
+        })
     }
+    resolveFirebaseQuery(sub) {
 
-    resolveFirebaseQuery(sub){
+        console.log("Here is the user "+ this.user);
         return this.fb.child(sub.path).orderByChild('viewedBy/'+this.user.uid).equalTo(null)
     }
-
     @action
-    markViewed(post){
-        let update ={};
+    markViewed(post) {
+        let updates = {};
         updates['viewedBy/'+this.user.uid] = true;
-        this.fb.child('posts').child(post).update(updates);
+        this.fb.child('posts').child(post).update(updates)
     }
-
-    subs(){
+    subs() {
         return [{
-            subKey : 'matches',
-            path : 'posts',
-            asList : true,
-            user : this.user
+            subKey: 'matches',
+            path: 'posts',
+            asList: true,
+            user: this.user
         }]
     }
 }

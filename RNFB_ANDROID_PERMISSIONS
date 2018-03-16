@@ -1,0 +1,12 @@
+Scanning folders for symlinks in C:\Users\hkumar\Work\Devlopment\Workspaces\IntelliJ\ReactNative\dinder\node_modules (46ms)
+{ Error: Cannot find module 'C:\Users\hkumar\Work\Devlopment\Workspaces\IntelliJ\ReactNative\dinder\node_modules\rnpm-install\package.json'
+    at Function.Module._resolveFilename (module.js:470:15)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at getRNPMConfig (C:/Users/hkumar/Work/Devlopment/Workspaces/IntelliJ/ReactNative/dinder/node_modules/react-native/local-cli/core/index.js:46:3)
+    at Object.getDependencyConfig (C:/Users/hkumar/Work/Devlopment/Workspaces/IntelliJ/ReactNative/dinder/node_modules/react-native/local-cli/core/index.js:84:18)
+    at deps.reduce (C:/Users/hkumar/Work/Devlopment/Workspaces/IntelliJ/ReactNative/dinder/node_modules/react-native/local-cli/link/getDependencyConfig.js:9:24)
+    at Array.reduce (native)
+    at getDependencyConfig (C:/Users/hkumar/Work/Devlopment/Workspaces/IntelliJ/ReactNative/dinder/node_modules/react-native/local-cli/link/getDependencyConfig.js:6:15)
+    at Object.link (C:/Users/hkumar/Work/Devlopment/Workspaces/IntelliJ/ReactNative/dinder/node_modules/react-native/local-cli/link/link.js:167:24) code: 'MODULE_NOT_FOUND' }
