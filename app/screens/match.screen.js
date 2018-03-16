@@ -17,7 +17,7 @@ export default class MatchScreen extends Component {
 
     static navigationOptions = ({navigation}) => ({
         headerRight: <Button transparent onPress={() => navigation.navigate('Post')}>
-            <Icon name='camera' style={{color : "#fff"}} size={28}/>
+            <Icon name='camera' style={{color : "black"}} size={28}/>
         </Button>
     })
 

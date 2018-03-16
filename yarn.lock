@@ -3619,6 +3619,10 @@ mixin-deep@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
+mobx-firebase-store@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/mobx-firebase-store/-/mobx-firebase-store-1.2.1.tgz#e24a8a99a22e74b8fc9538bbf761b6fad74d923d"
+
 mobx-react@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/mobx-react/-/mobx-react-5.0.0.tgz#8d5a33be376fa22b184a6f555d40a6a3a8459a16"
